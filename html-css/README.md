@@ -1,0 +1,1 @@
+This is a basic static webpage we created in class. 
