@@ -1,0 +1,67 @@
+body {
+	background-color: darkcyan;
+}
+
+nav {
+	background-color: orange;
+	height: 2em;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: "Arial";
+	cursor: pointer;
+}
+nav a{
+	text-decoration: none;
+}
+
+nav li:hover, 
+nav a:hover{
+	color: white;
+}
+
+main{
+	width: 70%;
+	float: left;
+}
+
+aside{
+	width: 30%;
+	float: right;
+}
+
+.wrapper {
+	background-color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.hero {
+	width: 100%;
+	overflow: hidden;
+}
+
+h1, 
+h2, 
+h3 {
+	color: crimson;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 2em;
+}
+
+
+footer {
+	clear: both;
+	background-color: #000;
+	color: #ffffff;
+	text-align: center;
+}
